@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>ExamenU1_3er</title>
+</head>
+<body>
+    <div class="container mt-4">
+        
+        <h2 class="mb-4">Noticias</h2>
+        
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Ejemplo de búsqueda">
+            <label for="floatingInput">Búsqueda</label>
+        </div>
+        
+        <div class="row g-3">
+            <div class="col-6">
+                <p>Fecha de Inicio</p>
+                <input class="form-control" type="date" id="inputDateFrom" aria-label="Fecha Inicio"/>
+            </div>
+            <div class="col-6">
+                <p>Fecha Fin</p>
+                <input class="form-control" type="date" id="inputDateTo" aria-label="Fecha Fin"/>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <button class="btn btn-primary" id="btnBuscar">Buscar</button>
+        </div>
+
+        <div id="contenido" class="row row-cols-1 row-cols-md-2">
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
